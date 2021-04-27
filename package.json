@@ -1,19 +1,17 @@
 {
   "name": "crymon",
-  "version": "1.0.0",
-  "description": "crypto monitor api",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amundsentb/crymon.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amundsentb/crymon/issues"
-  },
-  "homepage": "https://github.com/amundsentb/crymon#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
 }
