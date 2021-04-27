@@ -1,0 +1,19 @@
+{
+  "name": "crymon",
+  "version": "1.0.0",
+  "description": "crypto monitor api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amundsentb/crymon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amundsentb/crymon/issues"
+  },
+  "homepage": "https://github.com/amundsentb/crymon#readme"
+}
